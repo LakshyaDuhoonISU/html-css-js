@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First HTML5 Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>HTML5 is fun!</p>
+        <ol type="I"><!--ordered list(I,II,III...)-->
+            <li>List item 1</li>
+            <ol type="i"><!--ordered list(i,ii,iii...)-->
+                <li>nested list item 1</li>
+                <li>nested list item 2</li>
+                <ol type="a"><!--ordered list(a,b,c...)-->
+                    <li>nested list item 1</li>
+                    <li>nested list item 2</li>
+                    <ol type="A"><!--ordered list(A,B,C...)-->
+                        <li>nested list item 1</li>
+                        <li>nested list item 2</li>
+                        <ol><!--ordered list(by default 1,2,3...)-->
+                            <li>nested list item 1</li>
+                            <li>nested list item 2</li>
+                        </ol>
+                    </ol>
+                </ol>
+            </ol>
+            <li>list item 2</li>
+        </ol>
+        <ul type="square"><!--unordered list(•,type specifies type of shape before each list item)-->
+            <li>unordered list item 1</li>
+            <ul type="disc">
+                <li>nested unordered list item 1</li>
+            </ul>
+            <li>unordered list item 2</li>
+        </ul>
+        <dl><!--dl - description list-->
+            <ol>
+                <li>
+                    <dt>Coffee</dt><!-- dt - defines the term-->
+                </li>
+            <ul>
+                <li>
+                    <dd>black hot drink</dd><!-- dd - describes the term-->
+                </li>
+            </ul>
+                <li>
+                    <dt>Milk</dt>
+                </li>
+            <ul>
+                <li>
+                    <dd>white cold drink</dd>
+                </li>
+            </ul>
+            </ol>
+        </dl>
+    </body>
+    </html>

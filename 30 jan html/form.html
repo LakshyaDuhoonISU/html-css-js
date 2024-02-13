@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Details</title>
+        <style>
+        body {
+            background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+            background-size: cover;
+        }
+    </style>
+    </head>
+    <body style="text-align: center;" bgcolor="cyan">
+        <h2>Registration Form</h2><hr>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+            <br>First Name:<br><br>
+            <input type="text" name="firstname" placeholder="eg- John"><br><br>
+            Last Name:<br><br>
+            <input type="text" name="lastname" placeholder="eg- Doe"><br><br>
+            Profile Pic:<br><br>
+            <input type="file" name="profile" accept="image/*"><br><br>
+            User Name:<br><br>
+            <input type="text" name="userid"><br><br>
+            User Password:<br><br>
+            <input type="password" name="password"><br><br>
+            Age:<br><br>
+            <input type="number" name="age"><br><br>
+            DOB:<br><br>
+            <input type="date" name="dob"><br><br>
+            Email:<br><br>
+            <input type="email" name="email" placeholder="eg- xyz@gmail.com"><br><br>
+            Phone Number:<br><br>
+            <input type="tel" name="phone_number" placeholder="10 digit phone number"><br><br>
+            Gender:<br><br>
+            <input type="radio" name="gender" value="male" checked="checked">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br><br>
+            Preferred Language:<br><br>
+            <select name="language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                <option value="marathi">Marathi</option>
+            </select><br><br>
+            Domain:<br><br>
+            <select name="domain" size="2">
+                <option value="aiml">AI/ML</option>
+                <option value="ds">Data Science</option>
+                <option value="blockchain">Blockchain</option>
+                <option value="arvr">AR/VR</option>
+            </select><br><br>
+            State:<br><br>
+            <select name="state" size="2" multiple>
+                <option value="maharashtra">Maharashtra</option>
+                <option value="up">Uttar Pradesh</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="goa">Goa</option>
+                <option value="tn">Tamil Nadu</option>
+                <option value="kerala">Kerala</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="ap">Andhra Pradesh</option>
+                <option value="telangana">Telangana</option>
+                <option value="arp">Arunachal Pradesh</option>
+                <option value="assam">Assam</option>
+                <option value="bihar">Bihar</option>
+                <option value="chhatisgarh">Chhatisgarh</option>
+            </select><br><br>
+            Browsers:<br><br>
+            <input list="browsers" name="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+            </datalist><br><br>
+            Address:<br><br>
+            <textarea name="address" rows="5" cols="50"></textarea><br><br> 
+            <input type="checkbox" name="tc"> I agree to the Terms & Conditions<br><br>
+            <input type="submit" value="Submit" style="height: 20px; width: 100px;"><br><br>
+        </fieldset>
+        </form>
+    </body>
+</html>
+
+<!-- style="border-radius: 10px; width: 250px; padding: 20px; margin: auto; padding: 20px;" -->

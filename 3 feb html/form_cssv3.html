@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Courses Query</title>
+        <style>
+        body {
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+            background-size: cover;
+        }
+        form {
+            border-radius: 10px; 
+            width: 400px; 
+            padding: 20px; 
+            margin: auto; 
+            background-color: rgb(239, 242, 242);
+            box-shadow: 0 0 200px rgb(118, 226, 230);
+        }
+        h2{
+            color: rgb(10, 131, 111);
+        }
+    </style>
+    </head>
+    <body style="text-align: center;" bgcolor="cyan">
+        <h2 style="filter: drop-shadow();">College Application Form</h2><hr>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+            <br>First Name*:<br><br>
+            <input type="text" name="firstname" placeholder="eg- John" required><br><br><hr>
+            <br>Middle Name:<br><br>
+            <input type="text" name="middlename" placeholder="Father's name"><br><br><hr>
+            Last Name*:<br><br>
+            <input type="text" name="lastname" placeholder="eg- Doe" required><br><br><hr>
+            Profile Pic:<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" name="profile" accept="image/*"><br><br><hr>
+            User Name*:<br><br>
+            <input type="text" name="userid" placeholder="eg- john_doe" required><br><br><hr>
+            User Password*:<br><br>
+            <input type="password" name="password" placeholder="enter your password" required><br><br><hr>
+            Confirm your Password*:<br><br>
+            <input type="password" name="password" placeholder="enter your password again" required><br><br><hr>
+            Date Of Birth*:<br><br>
+            <input type="date" name="dob" required><br><br><hr>
+            Email*:<br><br>
+            <input type="email" name="email" placeholder="eg- johndoe@gmail.com" required><br><br><hr>
+            Contact Number*:<br><br>
+            <input type="tel" name="phone_number" placeholder="eg- 9087654321" required><br><br><hr>
+            Gender:<br><br>
+            <input type="radio" name="gender" value="male" checked="checked">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br><br><hr>
+            Interested Domain*:<br><br>
+            <select name="domain" size="2" required>
+                <option value="aiml">AI/ML</option>
+                <option value="ds">Data Science</option>
+                <option value="blockchain">Blockchain</option>
+                <option value="arvr">AR/VR</option>
+            </select><br><br><hr>
+            Address*:<br><br>
+            <textarea name="address" rows="5" cols="50" placeholder="enter your address" required></textarea><br><br><hr>
+            State*:<br><br>
+            <select name="state" required>
+                <option value="an">Andaman and Nicobar Islands</option>
+                <option value="arp">Arunachal Pradesh</option>
+                <option value="assam">Assam</option>
+                <option value="bihar">Bihar</option>
+                <option value="chandigarh">Chandigarh</option>
+                <option value="chhatisgarh">Chhattisgarh</option>
+                <option value="delhi">Delhi</option>
+                <option value="du">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="goa">Goa</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="haryana">Haryana</option>
+                <option value="hp">Himachal Pradesh</option>
+                <option value="jharkhand">Jharkhand</option>
+                <option value="jk">Jammu and Kashmir</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="kerala">Kerala</option>
+                <option value="ladakh">Ladakh</option>
+                <option value="lakshadweep">Lakshadweep</option>
+                <option value="maharashtra">Maharashtra</option>
+                <option value="manipur">Manipur</option>
+                <option value="meghalaya">Meghalaya</option>
+                <option value="mizoram">Mizoram</option>
+                <option value="mp">Madhya Pradesh</option>
+                <option value="nagaland">Nagaland</option>
+                <option value="odisha">Odisha</option>
+                <option value="puducherry">Puducherry</option>
+                <option value="punjab">Punjab</option>
+                <option value="rajasthan">Rajasthan</option>
+                <option value="sikkim">Sikkim</option>
+                <option value="telangana">Telangana</option>
+                <option value="tn">Tamil Nadu</option>
+                <option value="tripura">Tripura</option>
+                <option value="up">Uttar Pradesh</option>
+                <option value="uttarakhand">Uttarakhand</option>
+                <option value="wb">West Bengal</option>
+            </select><br><br><hr>
+            <input type="checkbox" name="tc" required> I agree to the Terms & Conditions*<br><br><br>
+            <input type="submit" value="Submit" style="height: 30px; width: 100px;padding:2px;background-color:  greenyellow; ">
+            &nbsp;&nbsp;&nbsp;<input type="submit" value="Clear" style="height: 30px; width: 100px;padding:2px;background-color:  rgb(255, 47, 47); "><br><br>
+        </fieldset>
+        </form>
+    </body>
+</html>

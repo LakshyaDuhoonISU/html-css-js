@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Table form</title>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body style="background-color: yellow;">
+        <table>
+            <tr>
+                <td>USERNAME:</td>
+                <td><input type="text" name="username" value="Rahul"></td>
+            </tr>
+            <tr>
+                <td>PASSWORD:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="5" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>Languages known:</td>
+                <td><input type="checkbox" name="language">English</input><br>
+                    <input type="checkbox" name="language">Hindi</input><br>
+                    <input type="checkbox" name="language">Telugu</input><br>
+                    <input type="checkbox" name="language">Tamil</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender">Male<input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+                <td>SELECT UR CITY:</td>
+                <td><select name="city" size="3">
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Chennai">Chennai</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="SUBMIT"></td>
+                <td><input type="submit" name="clear" value="CLEAR"></td>
+            </tr>
+        </table>
+    </body>
+</html>
