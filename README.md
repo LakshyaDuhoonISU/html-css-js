@@ -3,6 +3,7 @@
 - 3 feb - css form
 - 6 feb - css box model
 - 7 feb - css attributes
+- 21 feb - flex attributes
 - 23 feb - flexbox
 - 19 jan - html description list
 - 20 jan - html resume
