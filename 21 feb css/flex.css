@@ -1,0 +1,55 @@
+.flex-container{
+    display: flex;
+    width: 120px;
+    height: 350px;
+    border: 10px solid black;
+    background-color: rgb(23, 23, 23);
+
+    /* flex-direction specifies the alignment of the items in the container vertically */
+    /*css 3 row property */
+    /* flex-direction: row; */
+    /*css 3 row reverse property */
+    /* flex-direction: row-reverse; */
+    /*css 3 column property */
+    flex-direction: row;
+    /*css 3 column reverse property */
+    /* flex-direction:column-reverse ; */
+
+    /*  justify-content is used to align the content in the container(similar to padding) */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+
+    /* align-items is used to align the items inside the container horizontally */
+    /* align-items: baseline; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+    /* in order to stretch, you need to remove the height attribute */
+    /* align-items: flex-end; */
+
+    /* flex-wrap specifies how the flex item should wrap around the flex container */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+
+    /* align-self is used to align the flex items in the container */
+    /* align-self: flex-start */
+    /* align-self: flex-end */
+    /* align-self: baseline */
+    /* align-self: center */
+    /* align-self: stretch */
+    /* in order to stretch, you need to remove the height attribute */ 
+}
+.flex-item{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+/* body{
+    direction:rtl;
+} */
+
+/* rtl will flip the content */
