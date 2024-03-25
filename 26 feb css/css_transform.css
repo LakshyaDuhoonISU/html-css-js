@@ -1,0 +1,29 @@
+.box-wrap{
+    width:6em;
+    height: 6em;
+    background-color: black;
+    border:5px solid #3e77d9;
+}
+
+div:hover{
+    background-color: red;
+    transition-property: all;
+    transition-duration: 5s;
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(90deg);
+}
+
+.box
+{
+    width: 3em;
+    height: 3em;
+    background-color: #609356;
+    text-align: center;
+    /* transform: scale(0.5,1.2); scales the element relative to it's initial size(x,y) axis */
+    /* transform:skewX(15deg) skewY(25deg); skews the element skewX(deg) skewY(deg)  */
+    /* transform: translate(3em,3em); translate the element(x,y) axis */
+    /* transform: rotate(-25deg); rotate the element in clockwise direction(if +ve deg is given) else rotates in anticlockwise direction */
+    /* transform-origin: 100% 0% ; transform origin at top right */
+    /* transform: translate3d(10,5,12); 3d transform function */
+    /* transition-property: all; transition is used to add effects when changing from a style to another */
+    /* transition-duration: 5s; transition-duration is used to specify the duration of transition effect */
+}
