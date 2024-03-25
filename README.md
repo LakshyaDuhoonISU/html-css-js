@@ -5,6 +5,7 @@
 - 7 feb - css attributes
 - 21 feb - flex attributes
 - 23 feb - flexbox
+- 26 feb - css grid view
 - 19 jan - html description list
 - 20 jan - html resume
 - 29 jan - html frames
